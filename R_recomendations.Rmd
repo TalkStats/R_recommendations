@@ -1,0 +1,109 @@
+# R_recomendations
+### `r as.character(format(Sys.Date(), format="%B %d, %Y"))`
+
+
+An email responding to a colleague:
+
+**I want R core packages and functions (or at least the very best book that bakes everything in).**
+
+There are some great introductions to base R already and the intro manuals (http://cran.r-project.org/manuals.html).  I have one website I'd highly recommend and two books (I've read most of the intro R books but only own these 2 basic R books):
+
+- Website: http://www.statmethods.net/
+- Intro Book (same author as the website above): http://www.manning.com/kabacoff/
+- Andy Field Book on R (tremendously approachable author that combines the programming with stats): http://www.amazon.com/Discovering-Statistics-Using-Andy-Field/dp/1446200469
+
+
+Intro R video.  Here's Roger Peng.  He's awesome; great at explaining.  This was developed for Coursea I believe:
+
+- http://blog.revolutionanalytics.com/2012/12/coursera-videos.html
+
+**Then the document management and publishing platforms: github, pandoc/Rwhatever, Rmarkdown, github-blogging.**
+
+For document management above all learn knitr.  It is the key to reproducible research in R and it works very well with RStudio.  
+
+- I learned by running the demos: http://yihui.name/knitr/demo/minimal/
+- This video is a nice knitr intro: https://www.youtube.com/watch?v=ovdP3AOE5AE
+
+
+From there learn Rmarkdown to produce html docs (These are Rmd files) here's a link on Rmarkdown: 
+- http://www.rstudio.com/ide/docs/authoring/using_markdown
+
+To make a LaTeX doc you use a Rnw file.  Here's an absolute beginner script:
+- https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw
+
+Github is a great place to store and manage anything.  It's DropBox on steroids.  It's wee suited for code sharing, including projects.  It's free if the code is publicly available.  It costs for private repos unless you're a student (you get 5 free).  GitHub is based on the git language (or program; depends on your view).  Dropbox uses git as well.  I barely scratch the surface of what github is capable of doing.  But RStudio is set up to work with GitHub so it makes learning the actual git language unnecessary.  I know a few commands and that's it.  
+- https://github.com/
+
+There's another git repo management I'd recommend second that has free private repos called gitBucket.  I'll give the link and also a video I made on using bitbucket:
+- Overview: https://www.atlassian.com/software/bitbucket/overview
+- The site: https://bitbucket.org/
+- My video (slightly outdated now): https://www.youtube.com/watch?v=jGeCCxdZsDQ
+
+The blogging aspect or webpage facet of GitHub is discussed here:
+- https://pages.github.com/
+
+It's more than blogging.  It's a full web hosting capability.  If you have your own domain name you can even use that and GitHub hosts for free.  Here's an example of a simple page where I house afew things:
+
+- http://trinker.github.io/card/contact
+- http://trinker.github.io/hlm/#1
+- https://github.com/trinker/embodied
+
+Pandoc converts between documents awesomely.  It's pretty easy to use.  I have an R wrapper around it in the reports package as does the pander package.  But straight from the command line is easy enough.  Pandoc's website has a ton of example conversions that work very well.  I wouldn't say that for beginners Pandoc is a necessary document tool to learn but handy indeed.  Here's the examples:
+- http://johnmacfarlane.net/pandoc/demos.html
+
+**Then the more intermediate packages we talked about: reshape2, ggplot/ggvis.**
+
+R has built in data reshaping via the reshape function.  I did a series of blog lectures using this function here:
+- http://trinkerrstuff.wordpress.com/2012/05/03/reshape-from-base-explained-part-i/
+- http://trinkerrstuff.wordpress.com/2012/05/06/reshape-from-base-explained-part-ii/
+
+I'd recommend learning the reshape2 package though.  Here's some nice tutorials:
+
+- http://tgmstat.wordpress.com/2013/10/31/reshape-and-aggregate-data-with-the-r-package-reshape2/
+- http://www.seananderson.ca/2013/10/19/reshape.html
+- http://www.slideshare.net/jeffreybreen/reshaping-data-in-r
+
+R has three basic plotting platforms: base, lattice and ggplot.  I'd put serious effort into learning one for the needs of your people.  My recommendation is ggplot2 is the go to guy for graphics.  I use base R as well for my tasks for things like wordclouds and network graphs.  But 95% of my graphics are ggplot2 based.  I have friends who love lattice.  My recommendation is to really know one graphics system well.  Have a second as a backup (probably base graphics).    PS stay away from `qplot` function.  It's a crutch.  Use `ggplot` function instead.
+
+Best book that bakes everything in 
+- R Graphics Cookbook (free here: http://it-ebooks.info/book/1316/)
+
+Great intro video:
+- https://www.youtube.com/watch?v=HeqHMM4ziXA
+- https://www.youtube.com/watch?v=n8kYa9vu1l8
+
+ggvis is in beta state but here's the package on GitHub and a recent video where Hadley discussed ggvis:
+- GitHub ggvis:  https://github.com/rstudio/ggvis
+- intro:  http://ggvis.rstudio.com/
+- video:  https://www.youtube.com/watch?feature=player_embedded&v=LOXe6Eu59As
+
+Also worth mentioning is Ramnath's (author of slidify) package but that requires a bit more knowledge and skill.  It also plays well with slidify and shiny:
+
+- Gallery:  http://rcharts.io/gallery/
+- Home site::  http://rcharts.io/
+- http://rcharts.io/howitworks/
+- Intro video https://www.youtube.com/watch?v=nYr5KzaR1Vc
+
+
+**And the publishing ones: knitr, slidify, shiny**
+
+I already mentioned knitr in publishing.  RStudio really is a terrific way to publish as it links GitHub and knitr + R.  You can also throw things up quickly vie Rpubs (http://blog.rstudio.org/2012/06/04/announcing-rpubs/) which are documents made in RStudio that you want to share.  Here's my Rpubs.  I don't use too often but there's diversity there with documetns and slidify slides.  You can send these documents to the net just by clicking a a button.
+- http://rpubs.com/trinker
+
+slidify is a terrific way to make html presentations (and even more) but RStudio also has a quick way to make presentations as seen here:
+- http://www.rstudio.com/ide/docs/presentations/overview
+
+My take on the two is summed up here: 
+- https://github.com/ramnathv/slidify/issues/278
+
+Now slidify requires some learning and is not well documented yet.  It also requires learning some html to fine tune things.  Here's Ramnath's opening video for slidify:
+
+- www.youtube.com/embed/I95GOmLc7TA
+
+I learned slidify by looking at the excellent examples and source code found here:
+
+- Example slides (at bottom): https://github.com/ramnathv/slidifyExamples
+- Source code: https://github.com/ramnathv/slidifyExamples/tree/gh-pages/examples
+
+shiny takes the most experience of anything mentioned thus far.  I'd say it's a more advanced task.  It's powerfull and really nifty but it really intergrates a lot of the other things I've mentioned together:
+- http://shiny.rstudio.com/
