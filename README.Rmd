@@ -1,21 +1,27 @@
 # R_recomendations
 ### `r as.character(format(Sys.Date(), format="%B %d, %Y"))`
+---
+Recomendations for learning R at all levels from the TS community
+---
 
 
-An email responding to a colleague:
+## Beginners 
+There are some great introductions to base R already and the intro manuals (http://cran.r-project.org/manuals.html).  Websites we would highly recommend and two books (both read and own by TS members):
 
-**I want R core packages and functions (or at least the very best book that bakes everything in).**
-
-There are some great introductions to base R already and the intro manuals (http://cran.r-project.org/manuals.html).  I have one website I'd highly recommend and two books (I've read most of the intro R books but only own these 2 basic R books):
-
+### Web based content 
 - Website: http://www.statmethods.net/
+
+### Books
 - Intro Book (same author as the website above): http://www.manning.com/kabacoff/
 - Andy Field Book on R (tremendously approachable author that combines the programming with stats): http://www.amazon.com/Discovering-Statistics-Using-Andy-Field/dp/1446200469
 
-
-Intro R video.  Here's Roger Peng.  He's awesome; great at explaining.  This was developed for Coursea I believe:
+### Videos 
+Intro R video.  Here's Roger Peng.  He's awesome; great at explaining.  This was developed for Coursea:
 
 - http://blog.revolutionanalytics.com/2012/12/coursera-videos.html
+
+
+## R and Reproducable research
 
 **Then the document management and publishing platforms: github, pandoc/Rwhatever, Rmarkdown, github-blogging.**
 
@@ -51,8 +57,10 @@ It's more than blogging.  It's a full web hosting capability.  If you have your 
 Pandoc converts between documents awesomely.  It's pretty easy to use.  I have an R wrapper around it in the reports package as does the pander package.  But straight from the command line is easy enough.  Pandoc's website has a ton of example conversions that work very well.  I wouldn't say that for beginners Pandoc is a necessary document tool to learn but handy indeed.  Here's the examples:
 - http://johnmacfarlane.net/pandoc/demos.html
 
-**Then the more intermediate packages we talked about: reshape2, ggplot/ggvis.**
 
+## Intermediate 
+
+### Data manipulation
 R has built in data reshaping via the reshape function.  I did a series of blog lectures using this function here:
 - http://trinkerrstuff.wordpress.com/2012/05/03/reshape-from-base-explained-part-i/
 - http://trinkerrstuff.wordpress.com/2012/05/06/reshape-from-base-explained-part-ii/
@@ -63,7 +71,9 @@ I'd recommend learning the reshape2 package though.  Here's some nice tutorials:
 - http://www.seananderson.ca/2013/10/19/reshape.html
 - http://www.slideshare.net/jeffreybreen/reshaping-data-in-r
 
-R has three basic plotting platforms: base, lattice and ggplot.  I'd put serious effort into learning one for the needs of your people.  My recommendation is ggplot2 is the go to guy for graphics.  I use base R as well for my tasks for things like wordclouds and network graphs.  But 95% of my graphics are ggplot2 based.  I have friends who love lattice.  My recommendation is to really know one graphics system well.  Have a second as a backup (probably base graphics).    PS stay away from `qplot` function.  It's a crutch.  Use `ggplot` function instead.
+### Graphics
+
+R has three basic plotting platforms: base, lattice and ggplot. All have their various pros and cons. Graphics in base are limitless but can be tedious to code, ggplot2 is the go to guy for quick-and-easy graphics, lattice is something in between.  We recommend to really know one graphics system well and have a second as a backup. 
 
 Best book that bakes everything in 
 - R Graphics Cookbook (free here: http://it-ebooks.info/book/1316/)
@@ -77,7 +87,8 @@ ggvis is in beta state but here's the package on GitHub and a recent video where
 - intro:  http://ggvis.rstudio.com/
 - video:  https://www.youtube.com/watch?feature=player_embedded&v=LOXe6Eu59As
 
-Also worth mentioning is Ramnath's (author of slidify) package but that requires a bit more knowledge and skill.  It also plays well with slidify and shiny:
+
+Also worth mentioning is Ramnath's (author of slidify) rcharts package but that requires a bit more knowledge and skill.  It also plays well with slidify and shiny:
 
 - Gallery:  http://rcharts.io/gallery/
 - Home site::  http://rcharts.io/
@@ -85,9 +96,9 @@ Also worth mentioning is Ramnath's (author of slidify) package but that requires
 - Intro video https://www.youtube.com/watch?v=nYr5KzaR1Vc
 
 
-**And the publishing ones: knitr, slidify, shiny**
+### Presenting, Publishing and Interactive web-applications
 
-I already mentioned knitr in publishing.  RStudio really is a terrific way to publish as it links GitHub and knitr + R.  You can also throw things up quickly vie Rpubs (http://blog.rstudio.org/2012/06/04/announcing-rpubs/) which are documents made in RStudio that you want to share.  Here's my Rpubs.  I don't use too often but there's diversity there with documetns and slidify slides.  You can send these documents to the net just by clicking a a button.
+I already mentioned knitr in publishing.  RStudio really is a terrific way to publish as it links GitHub and knitr + R.  You can also throw things up quickly vie Rpubs (http://blog.rstudio.org/2012/06/04/announcing-rpubs/) which are documents made in RStudio that you want to share.  Here's my Rpubs.  I don't use too often but there's diversity there with documents and slidify slides.  You can send these documents to the net just by clicking a a button.
 - http://rpubs.com/trinker
 
 slidify is a terrific way to make html presentations (and even more) but RStudio also has a quick way to make presentations as seen here:
@@ -107,3 +118,35 @@ I learned slidify by looking at the excellent examples and source code found her
 
 shiny takes the most experience of anything mentioned thus far.  I'd say it's a more advanced task.  It's powerfull and really nifty but it really intergrates a lot of the other things I've mentioned together:
 - http://shiny.rstudio.com/
+
+### Coding style  
+Proper coding is vital to good science practice. There are many of types of errors and inefficiency stemming from programming style (Kernighan & Plauger 1978). These bad practices are prolific and have even lead to retraction of publications (see e.g. Merali 2010). Below we supply some links, which may help you learn to code better and more efficiently. This is a small investment that should pay off big in the future, as bad coding practises once learnt are difficult to "unlearn".
+
+Web-based:
+
+[Daniel Falster's piece on writing nice R code](http://nicercode.github.io/blog/2013-04-05-why-nice-code/)
+
+[The Google R Style Guide](http://nicercode.github.io/blog/2013-04-05-why-nice-code/)
+
+[Best practices for programming in Science](http://arxiv.org/pdf/1210.0530v3.pdf)
+
+References on programming style:
+
+Merali, Z. (2010) Computational science: Error, why scientific programming
+does not compute. Nature, 467, 775-777.
+
+Kernighan, B.W. & Plauger, P.J. (1978) The Elements of Programming Style.
+McGraw Hill, New York, 2nd edition.
+
+## Advanced
+
+### Coding efficiency in R
+A guide on how to program effectively in R, from easy to advanced
+[The R inferno](http://www.burns-stat.com/documents/books/the-r-inferno/)
+
+### High performance computing (HPC)
+
+[The CRAN taskview on HPC](http://cran.r-project.org/web/views/HighPerformanceComputing.html)
+
+[A tutorial on HPC for biologist](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004140)
+
