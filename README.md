@@ -1,16 +1,14 @@
 -   R\_recomendations
-    -   \#\#\# `r as.character(format(Sys.Date(), format="%B %d, %Y"))`
-    -   Recomendations for learning R at all levels from the TS
-        community
+    -   April 23, 2015
     -   Beginners
         -   Web based content
         -   Books
         -   Videos
 
-    -   R and Reproducable research
     -   Intermediate
         -   Data manipulation
         -   Graphics
+        -   R and Reproducable research
         -   Presenting, Publishing and Interactive web-applications
         -   Coding style
 
@@ -22,11 +20,11 @@
 R\_recomendations
 =================
 
-\#\#\# `r as.character(format(Sys.Date(), format="%B %d, %Y"))`
----------------------------------------------------------------
+### April 23, 2015
 
-Recomendations for learning R at all levels from the TS community
------------------------------------------------------------------
+  -------------------------------------------------------------------
+  Recomendations for learning R at all levels from the TS community
+  -------------------------------------------------------------------
 
 Beginners
 ---------
@@ -54,8 +52,54 @@ This was developed for Coursea:
 
 -   http://blog.revolutionanalytics.com/2012/12/coursera-videos.html
 
-R and Reproducable research
----------------------------
+Intermediate
+------------
+
+### Data manipulation
+
+R has built in data reshaping via the reshape function. I did a series
+of blog lectures using this function here: -
+http://trinkerrstuff.wordpress.com/2012/05/03/reshape-from-base-explained-part-i/
+-
+http://trinkerrstuff.wordpress.com/2012/05/06/reshape-from-base-explained-part-ii/
+
+I’d recommend learning the reshape2 package though. Here’s some nice
+tutorials:
+
+-   http://tgmstat.wordpress.com/2013/10/31/reshape-and-aggregate-data-with-the-r-package-reshape2/
+-   http://www.seananderson.ca/2013/10/19/reshape.html
+-   http://www.slideshare.net/jeffreybreen/reshaping-data-in-r
+
+### Graphics
+
+R has three basic plotting platforms: base, lattice and ggplot. All have
+their various pros and cons. Graphics in base are limitless but can be
+tedious to code, ggplot2 is the go to guy for quick-and-easy graphics,
+lattice is something in between. We recommend to really know one
+graphics system well and have a second as a backup.
+
+Best book that bakes everything in - R Graphics Cookbook (free here:
+http://it-ebooks.info/book/1316/)
+
+Great intro video: - https://www.youtube.com/watch?v=HeqHMM4ziXA -
+https://www.youtube.com/watch?v=n8kYa9vu1l8
+
+ggvis is in beta state but here’s the package on GitHub and a recent
+video where Hadley discussed ggvis: - GitHub ggvis:
+https://github.com/rstudio/ggvis - intro: http://ggvis.rstudio.com/ -
+video:
+https://www.youtube.com/watch?feature=player\_embedded&v=LOXe6Eu59As
+
+Also worth mentioning is Ramnath’s (author of slidify) rcharts package
+but that requires a bit more knowledge and skill. It also plays well
+with slidify and shiny:
+
+-   Gallery: http://rcharts.io/gallery/
+-   Home site:: http://rcharts.io/
+-   http://rcharts.io/howitworks/
+-   Intro video https://www.youtube.com/watch?v=nYr5KzaR1Vc
+
+### R and Reproducable research
 
 **Then the document management and publishing platforms: github,
 pandoc/Rwhatever, Rmarkdown, github-blogging.**
@@ -111,53 +155,6 @@ website has a ton of example conversions that work very well. I wouldn’t
 say that for beginners Pandoc is a necessary document tool to learn but
 handy indeed. Here’s the examples: -
 http://johnmacfarlane.net/pandoc/demos.html
-
-Intermediate
-------------
-
-### Data manipulation
-
-R has built in data reshaping via the reshape function. I did a series
-of blog lectures using this function here: -
-http://trinkerrstuff.wordpress.com/2012/05/03/reshape-from-base-explained-part-i/
--
-http://trinkerrstuff.wordpress.com/2012/05/06/reshape-from-base-explained-part-ii/
-
-I’d recommend learning the reshape2 package though. Here’s some nice
-tutorials:
-
--   http://tgmstat.wordpress.com/2013/10/31/reshape-and-aggregate-data-with-the-r-package-reshape2/
--   http://www.seananderson.ca/2013/10/19/reshape.html
--   http://www.slideshare.net/jeffreybreen/reshaping-data-in-r
-
-### Graphics
-
-R has three basic plotting platforms: base, lattice and ggplot. All have
-their various pros and cons. Graphics in base are limitless but can be
-tedious to code, ggplot2 is the go to guy for quick-and-easy graphics,
-lattice is something in between. We recommend to really know one
-graphics system well and have a second as a backup.
-
-Best book that bakes everything in - R Graphics Cookbook (free here:
-http://it-ebooks.info/book/1316/)
-
-Great intro video: - https://www.youtube.com/watch?v=HeqHMM4ziXA -
-https://www.youtube.com/watch?v=n8kYa9vu1l8
-
-ggvis is in beta state but here’s the package on GitHub and a recent
-video where Hadley discussed ggvis: - GitHub ggvis:
-https://github.com/rstudio/ggvis - intro: http://ggvis.rstudio.com/ -
-video:
-https://www.youtube.com/watch?feature=player\_embedded&v=LOXe6Eu59As
-
-Also worth mentioning is Ramnath’s (author of slidify) rcharts package
-but that requires a bit more knowledge and skill. It also plays well
-with slidify and shiny:
-
--   Gallery: http://rcharts.io/gallery/
--   Home site:: http://rcharts.io/
--   http://rcharts.io/howitworks/
--   Intro video https://www.youtube.com/watch?v=nYr5KzaR1Vc
 
 ### Presenting, Publishing and Interactive web-applications
 
