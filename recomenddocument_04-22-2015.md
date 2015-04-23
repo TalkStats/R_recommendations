@@ -1,12 +1,11 @@
 # R_recomendations
-### `r as.character(format(Sys.Date(), format="%B %d, %Y"))`
-
+### April 22, 2015
 ---
 Recomendations for learning R at all levels from the TS community
 ---
 
-## Beginners
-<a name="Beginners"></a>
+
+## Beginners 
 There are some great introductions to base R already and the intro manuals (http://cran.r-project.org/manuals.html).  Websites we would highly recommend and two books (both read and own by TS members):
 
 ### Web based content 
@@ -22,9 +21,44 @@ Intro R video.  Here's Roger Peng.  He's awesome; great at explaining.  This was
 - http://blog.revolutionanalytics.com/2012/12/coursera-videos.html
 
 
+## R and Reproducable research
+
+**Then the document management and publishing platforms: github, pandoc/Rwhatever, Rmarkdown, github-blogging.**
+
+For document management above all learn knitr.  It is the key to reproducible research in R and it works very well with RStudio.  
+
+- I learned by running the demos: http://yihui.name/knitr/demo/minimal/
+- This video is a nice knitr intro: https://www.youtube.com/watch?v=ovdP3AOE5AE
+
+
+From there learn Rmarkdown to produce html docs (These are Rmd files) here's a link on Rmarkdown: 
+- http://www.rstudio.com/ide/docs/authoring/using_markdown
+
+To make a LaTeX doc you use a Rnw file.  Here's an absolute beginner script:
+- https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw
+
+Github is a great place to store and manage anything.  It's DropBox on steroids.  It's wee suited for code sharing, including projects.  It's free if the code is publicly available.  It costs for private repos unless you're a student (you get 5 free).  GitHub is based on the git language (or program; depends on your view).  Dropbox uses git as well.  I barely scratch the surface of what github is capable of doing.  But RStudio is set up to work with GitHub so it makes learning the actual git language unnecessary.  I know a few commands and that's it.  
+- https://github.com/
+
+There's another git repo management I'd recommend second that has free private repos called gitBucket.  I'll give the link and also a video I made on using bitbucket:
+- Overview: https://www.atlassian.com/software/bitbucket/overview
+- The site: https://bitbucket.org/
+- My video (slightly outdated now): https://www.youtube.com/watch?v=jGeCCxdZsDQ
+
+The blogging aspect or webpage facet of GitHub is discussed here:
+- https://pages.github.com/
+
+It's more than blogging.  It's a full web hosting capability.  If you have your own domain name you can even use that and GitHub hosts for free.  Here's an example of a simple page where I house afew things:
+
+- http://trinker.github.io/card/contact
+- http://trinker.github.io/hlm/#1
+- https://github.com/trinker/embodied
+
+Pandoc converts between documents awesomely.  It's pretty easy to use.  I have an R wrapper around it in the reports package as does the pander package.  But straight from the command line is easy enough.  Pandoc's website has a ton of example conversions that work very well.  I wouldn't say that for beginners Pandoc is a necessary document tool to learn but handy indeed.  Here's the examples:
+- http://johnmacfarlane.net/pandoc/demos.html
+
 
 ## Intermediate 
-<a name="Intermediate"></a>
 
 ### Data manipulation
 R has built in data reshaping via the reshape function.  I did a series of blog lectures using this function here:
@@ -60,42 +94,6 @@ Also worth mentioning is Ramnath's (author of slidify) rcharts package but that 
 - Home site::  http://rcharts.io/
 - http://rcharts.io/howitworks/
 - Intro video https://www.youtube.com/watch?v=nYr5KzaR1Vc
-
-### R and Reproducable research
-
-**Then the document management and publishing platforms: github, pandoc/Rwhatever, Rmarkdown, github-blogging.**
-
-For document management above all learn knitr.  It is the key to reproducible research in R and it works very well with RStudio.  
-
-- I learned by running the demos: http://yihui.name/knitr/demo/minimal/
-- This video is a nice knitr intro: https://www.youtube.com/watch?v=ovdP3AOE5AE
-
-
-From there learn Rmarkdown to produce html docs (These are Rmd files) here's a link on Rmarkdown: 
-- http://www.rstudio.com/ide/docs/authoring/using_markdown
-
-To make a LaTeX doc you use a Rnw file.  Here's an absolute beginner script:
-- https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw
-
-Github is a great place to store and manage anything.  It's DropBox on steroids.  It's wee suited for code sharing, including projects.  It's free if the code is publicly available.  It costs for private repos unless you're a student (you get 5 free).  GitHub is based on the git language (or program; depends on your view).  Dropbox uses git as well.  I barely scratch the surface of what github is capable of doing.  But RStudio is set up to work with GitHub so it makes learning the actual git language unnecessary.  I know a few commands and that's it.  
-- https://github.com/
-
-There's another git repo management I'd recommend second that has free private repos called gitBucket.  I'll give the link and also a video I made on using bitbucket:
-- Overview: https://www.atlassian.com/software/bitbucket/overview
-- The site: https://bitbucket.org/
-- My video (slightly outdated now): https://www.youtube.com/watch?v=jGeCCxdZsDQ
-
-The blogging aspect or webpage facet of GitHub is discussed here:
-- https://pages.github.com/
-
-It's more than blogging.  It's a full web hosting capability.  If you have your own domain name you can even use that and GitHub hosts for free.  Here's an example of a simple page where I house afew things:
-
-- http://trinker.github.io/card/contact
-- http://trinker.github.io/hlm/#1
-- https://github.com/trinker/embodied
-
-Pandoc converts between documents awesomely.  It's pretty easy to use.  I have an R wrapper around it in the reports package as does the pander package.  But straight from the command line is easy enough.  Pandoc's website has a ton of example conversions that work very well.  I wouldn't say that for beginners Pandoc is a necessary document tool to learn but handy indeed.  Here's the examples:
-- http://johnmacfarlane.net/pandoc/demos.html
 
 
 ### Presenting, Publishing and Interactive web-applications

@@ -29,10 +29,9 @@ R\_recomendations
 Beginners
 ---------
 
-<a name="Beginners"></a> There are some great introductions to base R
-already and the intro manuals (http://cran.r-project.org/manuals.html).
-Websites we would highly recommend and two books (both read and own by
-TS members):
+There are some great introductions to base R already and the intro
+manuals (http://cran.r-project.org/manuals.html). Websites we would
+highly recommend and two books (both read and own by TS members):
 
 ### Web based content
 
@@ -56,7 +55,6 @@ This was developed for Coursea:
 Intermediate
 ------------
 
-<a name="Intermediate"></a>
 ### Data manipulation
 
 R has built in data reshaping via the reshape function. I did a series
