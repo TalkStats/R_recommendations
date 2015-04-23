@@ -5,7 +5,8 @@
 Recomendations for learning R at all levels from the TS community
 ---
 
-## Beginners 
+## Beginners
+<a name="Beginners"></a>
 There are some great introductions to base R already and the intro manuals (http://cran.r-project.org/manuals.html).  Websites we would highly recommend and two books (both read and own by TS members):
 
 ### Web based content 
@@ -23,6 +24,7 @@ Intro R video.  Here's Roger Peng.  He's awesome; great at explaining.  This was
 
 
 ## Intermediate 
+<a name="Intermediate"></a>
 
 ### Data manipulation
 R has built in data reshaping via the reshape function.  I did a series of blog lectures using this function here:
