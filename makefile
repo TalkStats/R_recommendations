@@ -27,6 +27,10 @@ all: $(MD) $(PDF) $(FINAL)
 $(MD):$(MASTER)
 	$(KNIT)
 
+# TOC creation
+$(MD):$(MD)
+	$(PDOC)
+
 $(PDF):$(MD)
 	$(PDOC)
 
