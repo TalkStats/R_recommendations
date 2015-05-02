@@ -1,76 +1,59 @@
--   R\_recomendations
-    -   April 23, 2015
-    -   Beginners
-        -   Web based content
-        -   Books
-        -   Videos
-
-    -   Intermediate
-        -   Data manipulation
-        -   Graphics
-        -   R and Reproducable research
-        -   Presenting, Publishing and Interactive web-applications
-        -   Coding style
-
-    -   Advanced
-        -   Coding efficiency in R
-        -   High performance computing (HPC)
-
-
-R\_recomendations
-=================
-
-### April 23, 2015
-
-  -------------------------------------------------------------------
-  Recomendations for learning R at all levels from the TS community
-  -------------------------------------------------------------------
+-   Beginners
+    -   Web based content
+    -   Books
+    -   Videos
+-   Intermediate
+    -   Data manipulation
+    -   Graphics
+    -   R and Reproducable research
+    -   Presenting, Publishing and Interactive web-applications
+    -   Coding style
+-   Advanced
+    -   Coding efficiency in R
+    -   High performance computing (HPC)
 
 Beginners
 ---------
 
-<a name="Beginners"></a> There are some great introductions to base R
-already and the intro manuals (http://cran.r-project.org/manuals.html).
-Websites we would highly recommend and two books (both read and own by
-TS members):
+There are some great introductions to base R already and the intro
+manuals (<http://cran.r-project.org/manuals.html>). Websites we would
+highly recommend and two books (both read and own by TS members):
 
 ### Web based content
 
--   Website: http://www.statmethods.net/
+-   Website: <http://www.statmethods.net/>
 
 ### Books
 
 -   Intro Book (same author as the website above):
-    http://www.manning.com/kabacoff/
+    <http://www.manning.com/kabacoff/>
 -   Andy Field Book on R (tremendously approachable author that combines
     the programming with stats):
-    http://www.amazon.com/Discovering-Statistics-Using-Andy-Field/dp/1446200469
+    <http://www.amazon.com/Discovering-Statistics-Using-Andy-Field/dp/1446200469>
 
 ### Videos
 
-Intro R video. Here’s Roger Peng. He’s awesome; great at explaining.
+Intro R video. Here's Roger Peng. He's awesome; great at explaining.
 This was developed for Coursea:
 
--   http://blog.revolutionanalytics.com/2012/12/coursera-videos.html
+-   <http://blog.revolutionanalytics.com/2012/12/coursera-videos.html>
 
 Intermediate
 ------------
 
-<a name="Intermediate"></a>
 ### Data manipulation
 
 R has built in data reshaping via the reshape function. I did a series
 of blog lectures using this function here: -
-http://trinkerrstuff.wordpress.com/2012/05/03/reshape-from-base-explained-part-i/
--
-http://trinkerrstuff.wordpress.com/2012/05/06/reshape-from-base-explained-part-ii/
+<http://trinkerrstuff.wordpress.com/2012/05/03/reshape-from-base-explained-part-i/> -
+<http://trinkerrstuff.wordpress.com/2012/05/06/reshape-from-base-explained-part-ii/>
 
-I’d recommend learning the reshape2 package though. Here’s some nice
+I'd recommend learning the reshape2 package though. Here's some nice
 tutorials:
 
--   http://tgmstat.wordpress.com/2013/10/31/reshape-and-aggregate-data-with-the-r-package-reshape2/
--   http://www.seananderson.ca/2013/10/19/reshape.html
--   http://www.slideshare.net/jeffreybreen/reshaping-data-in-r
+-   <http://tgmstat.wordpress.com/2013/10/31/reshape-and-aggregate-data-with-the-r-package-reshape2/>
+-   <http://www.seananderson.ca/2013/10/19/reshape.html>
+-   <http://www.slideshare.net/jeffreybreen/reshaping-data-in-r>
 
 ### Graphics
 
@@ -81,25 +64,25 @@ lattice is something in between. We recommend to really know one
 graphics system well and have a second as a backup.
 
 Best book that bakes everything in - R Graphics Cookbook (free here:
-http://it-ebooks.info/book/1316/)
+<http://it-ebooks.info/book/1316/>)
 
-Great intro video: - https://www.youtube.com/watch?v=HeqHMM4ziXA -
-https://www.youtube.com/watch?v=n8kYa9vu1l8
+Great intro video: - <https://www.youtube.com/watch?v=HeqHMM4ziXA> -
+<https://www.youtube.com/watch?v=n8kYa9vu1l8>
 
-ggvis is in beta state but here’s the package on GitHub and a recent
+ggvis is in beta state but here's the package on GitHub and a recent
 video where Hadley discussed ggvis: - GitHub ggvis:
-https://github.com/rstudio/ggvis - intro: http://ggvis.rstudio.com/ -
-video:
-https://www.youtube.com/watch?feature=player\_embedded&v=LOXe6Eu59As
+<https://github.com/rstudio/ggvis> - intro:
+<http://ggvis.rstudio.com/> - video:
+<https://www.youtube.com/watch?feature=player_embedded&v=LOXe6Eu59As>
 
-Also worth mentioning is Ramnath’s (author of slidify) rcharts package
+Also worth mentioning is Ramnath's (author of slidify) rcharts package
 but that requires a bit more knowledge and skill. It also plays well
 with slidify and shiny:
 
--   Gallery: http://rcharts.io/gallery/
--   Home site:: http://rcharts.io/
--   http://rcharts.io/howitworks/
--   Intro video https://www.youtube.com/watch?v=nYr5KzaR1Vc
+-   Gallery: <http://rcharts.io/gallery/>
+-   Home site:: <http://rcharts.io/>
+-   <http://rcharts.io/howitworks/>
+-   Intro video <https://www.youtube.com/watch?v=nYr5KzaR1Vc>
 
 ### R and Reproducable research
 
@@ -110,74 +93,74 @@ For document management above all learn knitr. It is the key to
 reproducible research in R and it works very well with RStudio.
 
 -   I learned by running the demos:
-    http://yihui.name/knitr/demo/minimal/
+    <http://yihui.name/knitr/demo/minimal/>
 -   This video is a nice knitr intro:
-    https://www.youtube.com/watch?v=ovdP3AOE5AE
+    <https://www.youtube.com/watch?v=ovdP3AOE5AE>
 
 From there learn Rmarkdown to produce html docs (These are Rmd files)
-here’s a link on Rmarkdown: -
-http://www.rstudio.com/ide/docs/authoring/using\_markdown
+here's a link on Rmarkdown: -
+<http://www.rstudio.com/ide/docs/authoring/using_markdown>
 
-To make a LaTeX doc you use a Rnw file. Here’s an absolute beginner
+To make a LaTeX doc you use a Rnw file. Here's an absolute beginner
 script: -
-https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw
+<https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw>
 
-Github is a great place to store and manage anything. It’s DropBox on
-steroids. It’s wee suited for code sharing, including projects. It’s
+Github is a great place to store and manage anything. It's DropBox on
+steroids. It's wee suited for code sharing, including projects. It's
 free if the code is publicly available. It costs for private repos
-unless you’re a student (you get 5 free). GitHub is based on the git
+unless you're a student (you get 5 free). GitHub is based on the git
 language (or program; depends on your view). Dropbox uses git as well. I
 barely scratch the surface of what github is capable of doing. But
 RStudio is set up to work with GitHub so it makes learning the actual
-git language unnecessary. I know a few commands and that’s it.\
-- https://github.com/
+git language unnecessary. I know a few commands and that's it.  
+- <https://github.com/>
 
-There’s another git repo management I’d recommend second that has free
-private repos called gitBucket. I’ll give the link and also a video I
+There's another git repo management I'd recommend second that has free
+private repos called gitBucket. I'll give the link and also a video I
 made on using bitbucket: - Overview:
-https://www.atlassian.com/software/bitbucket/overview - The site:
-https://bitbucket.org/ - My video (slightly outdated now):
-https://www.youtube.com/watch?v=jGeCCxdZsDQ
+<https://www.atlassian.com/software/bitbucket/overview> - The site:
+<https://bitbucket.org/> - My video (slightly outdated now):
+<https://www.youtube.com/watch?v=jGeCCxdZsDQ>
 
 The blogging aspect or webpage facet of GitHub is discussed here: -
-https://pages.github.com/
+<https://pages.github.com/>
 
-It’s more than blogging. It’s a full web hosting capability. If you have
+It's more than blogging. It's a full web hosting capability. If you have
 your own domain name you can even use that and GitHub hosts for free.
-Here’s an example of a simple page where I house afew things:
+Here's an example of a simple page where I house afew things:
 
--   http://trinker.github.io/card/contact
--   http://trinker.github.io/hlm/\#1
--   https://github.com/trinker/embodied
+-   <http://trinker.github.io/card/contact>
+-   <http://trinker.github.io/hlm/#1>
+-   <https://github.com/trinker/embodied>
 
-Pandoc converts between documents awesomely. It’s pretty easy to use. I
+Pandoc converts between documents awesomely. It's pretty easy to use. I
 have an R wrapper around it in the reports package as does the pander
-package. But straight from the command line is easy enough. Pandoc’s
-website has a ton of example conversions that work very well. I wouldn’t
+package. But straight from the command line is easy enough. Pandoc's
+website has a ton of example conversions that work very well. I wouldn't
 say that for beginners Pandoc is a necessary document tool to learn but
-handy indeed. Here’s the examples: -
-http://johnmacfarlane.net/pandoc/demos.html
+handy indeed. Here's the examples: -
+<http://johnmacfarlane.net/pandoc/demos.html>
 
 ### Presenting, Publishing and Interactive web-applications
 
 I already mentioned knitr in publishing. RStudio really is a terrific
 way to publish as it links GitHub and knitr + R. You can also throw
 things up quickly vie Rpubs
-(http://blog.rstudio.org/2012/06/04/announcing-rpubs/) which are
-documents made in RStudio that you want to share. Here’s my Rpubs. I
-don’t use too often but there’s diversity there with documents and
+(<http://blog.rstudio.org/2012/06/04/announcing-rpubs/>) which are
+documents made in RStudio that you want to share. Here's my Rpubs. I
+don't use too often but there's diversity there with documents and
 slidify slides. You can send these documents to the net just by clicking
-a a button. - http://rpubs.com/trinker
+a a button. - <http://rpubs.com/trinker>
 
 slidify is a terrific way to make html presentations (and even more) but
 RStudio also has a quick way to make presentations as seen here: -
-http://www.rstudio.com/ide/docs/presentations/overview
+<http://www.rstudio.com/ide/docs/presentations/overview>
 
 My take on the two is summed up here: -
-https://github.com/ramnathv/slidify/issues/278
+<https://github.com/ramnathv/slidify/issues/278>
 
 Now slidify requires some learning and is not well documented yet. It
-also requires learning some html to fine tune things. Here’s Ramnath’s
+also requires learning some html to fine tune things. Here's Ramnath's
 opening video for slidify:
 
 -   www.youtube.com/embed/I95GOmLc7TA
@@ -186,28 +169,28 @@ I learned slidify by looking at the excellent examples and source code
 found here:
 
 -   Example slides (at bottom):
-    https://github.com/ramnathv/slidifyExamples
+    <https://github.com/ramnathv/slidifyExamples>
 -   Source code:
-    https://github.com/ramnathv/slidifyExamples/tree/gh-pages/examples
+    <https://github.com/ramnathv/slidifyExamples/tree/gh-pages/examples>
 
-shiny takes the most experience of anything mentioned thus far. I’d say
-it’s a more advanced task. It’s powerfull and really nifty but it really
-intergrates a lot of the other things I’ve mentioned together: -
-http://shiny.rstudio.com/
+shiny takes the most experience of anything mentioned thus far. I'd say
+it's a more advanced task. It's powerfull and really nifty but it really
+intergrates a lot of the other things I've mentioned together: -
+<http://shiny.rstudio.com/>
 
 ### Coding style
 
 Proper coding is vital to good science practice. There are many of types
 of errors and inefficiency stemming from programming style (Kernighan &
 Plauger 1978). These bad practices are prolific and have even lead to
-retraction of publications (see e.g. Merali 2010). Below we supply some
+retraction of publications (see e.g. Merali 2010). Below we supply some
 links, which may help you learn to code better and more efficiently.
 This is a small investment that should pay off big in the future, as bad
-coding practises once learnt are difficult to “unlearn”.
+coding practises once learnt are difficult to "unlearn".
 
 Web-based:
 
-[Daniel Falster’s piece on writing nice R
+[Daniel Falster's piece on writing nice R
 code](http://nicercode.github.io/blog/2013-04-05-why-nice-code/)
 
 [The Google R Style

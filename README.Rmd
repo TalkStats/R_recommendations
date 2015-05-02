@@ -1,12 +1,20 @@
-# R_recomendations
-### `r as.character(format(Sys.Date(), format="%B %d, %Y"))`
-
 ---
-Recomendations for learning R at all levels from the TS community
+title: "Recomendations for learning R at all levels from the TS community"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: true
+    theme: journal
+    number_sections: true
+  pdf_document:
+    toc: true
+    number_sections: true
+  md_document:
+    toc: true  
 ---
 
 ## Beginners
-<a name="Beginners"></a>
+
 There are some great introductions to base R already and the intro manuals (http://cran.r-project.org/manuals.html).  Websites we would highly recommend and two books (both read and own by TS members):
 
 ### Web based content 
@@ -24,7 +32,7 @@ Intro R video.  Here's Roger Peng.  He's awesome; great at explaining.  This was
 
 
 ## Intermediate 
-<a name="Intermediate"></a>
+
 
 ### Data manipulation
 R has built in data reshaping via the reshape function.  I did a series of blog lectures using this function here:
