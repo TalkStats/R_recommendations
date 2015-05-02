@@ -5,8 +5,8 @@
 -   [Intermediate](#intermediate)
     -   [Data manipulation](#data-manipulation)
     -   [Graphics](#graphics)
-    -   [R and Reproducable research](#r-and-reproducable-research)
-    -   [Presenting, Publishing and Interactive web-applications](#presenting,-publishing-and-interactive-web-applications)
+    -   [R and Reproducible research](#r-and-reproducible-research)
+    -   [Presenting, Publishing and Interactive web-applications](#presenting-publishing-and-interactive-web-applications)
     -   [Coding style](#coding-style)
 -   [Advanced](#advanced)
     -   [Coding efficiency in R](#coding-efficiency-in-r)
@@ -75,7 +75,7 @@ video where Hadley discussed ggvis: - GitHub ggvis:
 <http://ggvis.rstudio.com/> - video:
 <https://www.youtube.com/watch?feature=player_embedded&v=LOXe6Eu59As>
 
-Also worth mentioning is Ramnath's (author of slidify) rcharts package
+Also worth mentioning is Ramnath's (author of slidify) rCharts package
 but that requires a bit more knowledge and skill. It also plays well
 with slidify and shiny:
 
@@ -84,10 +84,10 @@ with slidify and shiny:
 -   <http://rcharts.io/howitworks/>
 -   Intro video <https://www.youtube.com/watch?v=nYr5KzaR1Vc>
 
-### R and Reproducable research
+### R and Reproducible research
 
-**Then the document management and publishing platforms: github,
-pandoc/Rwhatever, Rmarkdown, github-blogging.**
+**Then the document management and publishing platforms: GitHub,
+pandoc/Rwhatever, Rmarkdown, GitHub-blogging.**
 
 For document management above all learn knitr. It is the key to
 reproducible research in R and it works very well with RStudio.
@@ -105,12 +105,12 @@ To make a LaTeX doc you use a Rnw file. Here's an absolute beginner
 script: -
 <https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw>
 
-Github is a great place to store and manage anything. It's DropBox on
+GitHub is a great place to store and manage anything. It's DropBox on
 steroids. It's wee suited for code sharing, including projects. It's
 free if the code is publicly available. It costs for private repos
 unless you're a student (you get 5 free). GitHub is based on the git
 language (or program; depends on your view). Dropbox uses git as well. I
-barely scratch the surface of what github is capable of doing. But
+barely scratch the surface of what GitHub is capable of doing. But
 RStudio is set up to work with GitHub so it makes learning the actual
 git language unnecessary. I know a few commands and that's it.  
 - <https://github.com/>
@@ -127,7 +127,7 @@ The blogging aspect or webpage facet of GitHub is discussed here: -
 
 It's more than blogging. It's a full web hosting capability. If you have
 your own domain name you can even use that and GitHub hosts for free.
-Here's an example of a simple page where I house afew things:
+Here's an example of a simple page where I house a few things:
 
 -   <http://trinker.github.io/card/contact>
 -   <http://trinker.github.io/hlm/#1>
@@ -150,7 +150,7 @@ things up quickly vie Rpubs
 documents made in RStudio that you want to share. Here's my Rpubs. I
 don't use too often but there's diversity there with documents and
 slidify slides. You can send these documents to the net just by clicking
-a a button. - <http://rpubs.com/trinker>
+a button. - <http://rpubs.com/trinker>
 
 slidify is a terrific way to make html presentations (and even more) but
 RStudio also has a quick way to make presentations as seen here: -
