@@ -1,4 +1,4 @@
---[[[](#)](#[](#))](#[[](#)](#[](#)))
+---
 title: "Recomendations for learning R at all levels from the TS community"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:

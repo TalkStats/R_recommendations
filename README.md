@@ -1,16 +1,16 @@
--   Beginners
-    -   Web based content
-    -   Books
-    -   Videos
--   Intermediate
-    -   Data manipulation
-    -   Graphics
-    -   R and Reproducable research
-    -   Presenting, Publishing and Interactive web-applications
-    -   Coding style
--   Advanced
-    -   Coding efficiency in R
-    -   High performance computing (HPC)
+-   [Beginners](#beginners)
+    -   [Web based content](#web-based-content)
+    -   [Books](#books)
+    -   [Videos](#videos)
+-   [Intermediate](#intermediate)
+    -   [Data manipulation](#data-manipulation)
+    -   [Graphics](#graphics)
+    -   [R and Reproducable research](#r-and-reproducable-research)
+    -   [Presenting, Publishing and Interactive web-applications](#presenting,-publishing-and-interactive-web-applications)
+    -   [Coding style](#coding-style)
+-   [Advanced](#advanced)
+    -   [Coding efficiency in R](#coding-efficiency-in-r)
+    -   [High performance computing (HPC)](#high-performance-computing-(hpc))
 
 Beginners
 ---------

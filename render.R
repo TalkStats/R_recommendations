@@ -1,3 +1,10 @@
+library(rmarkdown,lib='~/R/lib')
+library(yaml,lib='~/R/lib')
+library(knitr,lib='~/R/lib')
+library(stringr,lib='~/R/lib')
+library(formatR,lib='~/R/lib')
+
+
 render("README.Rmd", "all") 
 
 md_toc <- function(path = {(x <- dir())[tools::file_ext(x) == "md"]}){
@@ -9,4 +16,4 @@ md_toc <- function(path = {(x <- dir())[tools::file_ext(x) == "md"]}){
     cat(paste(x, collapse = "\n"), file = path)
 }
 
-md_toc(path="./README.Rmd")
+md_toc(path="./README.md")
