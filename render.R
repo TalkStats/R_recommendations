@@ -9,4 +9,4 @@ md_toc <- function(path = {(x <- dir())[tools::file_ext(x) == "md"]}){
     cat(paste(x, collapse = "\n"), file = path)
 }
 
-md_toc()
+md_toc(path="./README.Rmd")

@@ -21,7 +21,7 @@ RMARKDOWN = Rscript --vanilla -e "library(rmarkdown,lib='~/R/lib');render('$<', 
 RENDER = Rscript --vanilla -e "library(rmarkdown,lib='~/R/lib');library(yaml,lib='~/R/lib');library(knitr,lib='~/R/lib');library(stringr,lib='~/R/lib');source('render.R')"
 
 PDFLATEX = pdflatex -synctex=1 -interaction=nonstopmode '$<' '$@'
-all: $(MD) $(FINAL)
+all: $(FINAL) $(MD)
 
 #########################
 ## main markdownx
@@ -29,8 +29,8 @@ all: $(MD) $(FINAL)
 ## 	: RULES
 
 ## Using trinker's suggestion
-$(MD):$(MASTER)
+$(FINAL):$(MASTER)
 	$(RENDER)
 
-$(FINAL):$(MD)
+$(MD):$(FINAL)
 	$(RNAME)

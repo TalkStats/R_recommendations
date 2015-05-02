@@ -1,4 +1,4 @@
----
+--[[[](#)](#[](#))](#[[](#)](#[](#)))
 title: "Recomendations for learning R at all levels from the TS community"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
@@ -159,4 +159,3 @@ A guide on how to program effectively in R, from easy to advanced
 [The CRAN taskview on HPC](http://cran.r-project.org/web/views/HighPerformanceComputing.html)
 
 [A tutorial on HPC for biologist](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004140)
-
