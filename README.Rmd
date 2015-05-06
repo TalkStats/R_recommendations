@@ -14,8 +14,7 @@ output:
 ---
 
 ## Beginners
-
-There are some great introductions to base R already and the intro manuals (http://cran.r-project.org/manuals.html).  Websites we would highly recommend and two books (both read and own by TS members):
+Starting with R can be challenging, but it is no longer a challenge to find starting guids, tutorials or books. Yet, now, the problem becomes the vast number of choices in "starting guides". This is why we have made a list of options those beginning with R should enjoy. Here are some great introductions to basics of R (besides the intro manuals (http://cran.r-project.org/manuals.html)), including free websites that we would highly recommend and two books (both read and own by TS members):
 
 ### Web based content 
 - Website: http://www.statmethods.net/
@@ -35,11 +34,11 @@ Intro R video.  Here's Roger Peng.  He's awesome; great at explaining.  This was
 
 
 ### Data manipulation
-R has built in data reshaping via the reshape function.  I did a series of blog lectures using this function here:
+R has built in data reshaping via the reshape function that comes "out of the box" with a base R installation.  Trinker did a series of blog lectures using this function here:
 - http://trinkerrstuff.wordpress.com/2012/05/03/reshape-from-base-explained-part-i/
 - http://trinkerrstuff.wordpress.com/2012/05/06/reshape-from-base-explained-part-ii/
 
-I'd recommend learning the reshape2 package though.  Here's some nice tutorials:
+If you are going to have to manipulate data often, we would recommend learning the reshape2 package though.  Here's some nice tutorials:
 
 - http://tgmstat.wordpress.com/2013/10/31/reshape-and-aggregate-data-with-the-r-package-reshape2/
 - http://www.seananderson.ca/2013/10/19/reshape.html
@@ -70,13 +69,15 @@ Also worth mentioning is Ramnath's (author of slidify) rcharts package but that 
 - Intro video https://www.youtube.com/watch?v=nYr5KzaR1Vc
 
 ### R and Reproducable research
+R has become a powerful platform for reproducable research with a variety of packages that help you document all stages of manuscript writing. 
+
 
 **Then the document management and publishing platforms: github, pandoc/Rwhatever, Rmarkdown, github-blogging.**
 
 For document management above all learn knitr.  It is the key to reproducible research in R and it works very well with RStudio.  
 
-- I learned by running the demos: http://yihui.name/knitr/demo/minimal/
-- This video is a nice knitr intro: https://www.youtube.com/watch?v=ovdP3AOE5AE
+- A good way to learn is by running the demos: http://yihui.name/knitr/demo/minimal/
+- This video is an excellent knitr intro: https://www.youtube.com/watch?v=ovdP3AOE5AE
 
 
 From there learn Rmarkdown to produce html docs (These are Rmd files) here's a link on Rmarkdown: 
@@ -85,49 +86,48 @@ From there learn Rmarkdown to produce html docs (These are Rmd files) here's a l
 To make a LaTeX doc you use a Rnw file.  Here's an absolute beginner script:
 - https://github.com/yihui/knitr-examples/blob/master/002-minimal.Rnw
 
-Github is a great place to store and manage anything.  It's DropBox on steroids.  It's wee suited for code sharing, including projects.  It's free if the code is publicly available.  It costs for private repos unless you're a student (you get 5 free).  GitHub is based on the git language (or program; depends on your view).  Dropbox uses git as well.  I barely scratch the surface of what github is capable of doing.  But RStudio is set up to work with GitHub so it makes learning the actual git language unnecessary.  I know a few commands and that's it.  
-- https://github.com/
+Github is a great place to store and manage anything.  It's DropBox on steroids.  It's wee suited for code sharing, including projects.  It's free if the code is publicly available.  It costs for private repos unless you're a student (you get 5 free).  GitHub is based on the git language (or program; depends on your view).  Dropbox uses git as well.  RStudio is also set up to work with GitHub so it makes learning the actual git language unnecessary.  With RStudio you only need to know a few commands and that's it.  - https://github.com/
 
-There's another git repo management I'd recommend second that has free private repos called gitBucket.  I'll give the link and also a video I made on using bitbucket:
+There's another git repo management we'd recommend second that has free private repos called bitBucket.  Here is a link and also a video made by Trinker on using bitbucket:
 - Overview: https://www.atlassian.com/software/bitbucket/overview
 - The site: https://bitbucket.org/
-- My video (slightly outdated now): https://www.youtube.com/watch?v=jGeCCxdZsDQ
+- video (slightly outdated now): https://www.youtube.com/watch?v=jGeCCxdZsDQ
 
 The blogging aspect or webpage facet of GitHub is discussed here:
 - https://pages.github.com/
 
-It's more than blogging.  It's a full web hosting capability.  If you have your own domain name you can even use that and GitHub hosts for free.  Here's an example of a simple page where I house afew things:
+It's more than blogging.  It's a full web hosting capability.  If you have your own domain name you can even use that and GitHub hosts for free.  Here's an example of a simple page where using hitgub to host things:
 
 - http://trinker.github.io/card/contact
+- http://marcodvisser.github.io/aprof/Quickstart.html
 - http://trinker.github.io/hlm/#1
 - https://github.com/trinker/embodied
 
-Pandoc converts between documents awesomely.  It's pretty easy to use.  I have an R wrapper around it in the reports package as does the pander package.  But straight from the command line is easy enough.  Pandoc's website has a ton of example conversions that work very well.  I wouldn't say that for beginners Pandoc is a necessary document tool to learn but handy indeed.  Here's the examples:
+Pandoc converts between documents awesomely.  It's pretty easy to use.  There is an R wrapper in the reports package, that makes it easier to use (as does the pander package).  But straight from the command line is easy enough.  Pandoc's website has a ton of example conversions that work very well.  Pandoc isn't a necessary document tool to learn but it's handy indeed.  Here's the examples:
 - http://johnmacfarlane.net/pandoc/demos.html
 
 
 ### Presenting, Publishing and Interactive web-applications
 
-I already mentioned knitr in publishing.  RStudio really is a terrific way to publish as it links GitHub and knitr + R.  You can also throw things up quickly vie Rpubs (http://blog.rstudio.org/2012/06/04/announcing-rpubs/) which are documents made in RStudio that you want to share.  Here's my Rpubs.  I don't use too often but there's diversity there with documents and slidify slides.  You can send these documents to the net just by clicking a a button.
+We already mentioned knitr in publishing.  RStudio really is a terrific way to publish as it links GitHub and knitr + R.  You can also throw things up quickly vie Rpubs (http://blog.rstudio.org/2012/06/04/announcing-rpubs/) which are documents made in RStudio that you want to share.  You can  send all kinds of documents to the net just by clicking a a button. Examples:
 - http://rpubs.com/trinker
 
 slidify is a terrific way to make html presentations (and even more) but RStudio also has a quick way to make presentations as seen here:
 - http://www.rstudio.com/ide/docs/presentations/overview
 
-My take on the two is summed up here: 
+Trinker's take on the two is summed up here: 
 - https://github.com/ramnathv/slidify/issues/278
 
 Now slidify requires some learning and is not well documented yet.  It also requires learning some html to fine tune things.  Here's Ramnath's opening video for slidify:
 
 - www.youtube.com/embed/I95GOmLc7TA
 
-I learned slidify by looking at the excellent examples and source code found here:
+A good way to learn slidify is by looking at the excellent examples and source code found here:
 
 - Example slides (at bottom): https://github.com/ramnathv/slidifyExamples
 - Source code: https://github.com/ramnathv/slidifyExamples/tree/gh-pages/examples
 
-shiny takes the most experience of anything mentioned thus far.  I'd say it's a more advanced task.  It's powerfull and really nifty but it really intergrates a lot of the other things I've mentioned together:
-- http://shiny.rstudio.com/
+Shiny is a great way to make interactive graphs, for the web, with R. Shiny takes the most experience of anything mentioned thus far: it's a more advanced task.  It's powerfull and really nifty but it really intergrates a lot of the other things I've mentioned together: - http://shiny.rstudio.com/
 
 ### Coding style  
 Proper coding is vital to good science practice. There are many of types of errors and inefficiency stemming from programming style (Kernighan & Plauger 1978). These bad practices are prolific and have even lead to retraction of publications (see e.g. Merali 2010). Below we supply some links, which may help you learn to code better and more efficiently. This is a small investment that should pay off big in the future, as bad coding practises once learnt are difficult to "unlearn".
@@ -154,8 +154,12 @@ McGraw Hill, New York, 2nd edition.
 A guide on how to program effectively in R, from easy to advanced
 [The R inferno](http://www.burns-stat.com/documents/books/the-r-inferno/)
 
+A quick guide on using profiling to find bottlenecks in your code is given [here](http://marcodvisser.github.io/aprof/Quickstart.html).
+
 ### High performance computing (HPC)
 
 [The CRAN taskview on HPC](http://cran.r-project.org/web/views/HighPerformanceComputing.html)
 
-[A tutorial on HPC for biologist](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004140)
+Computing is central to modern science, the following paper provides a gentle introduction to high performance computing  - aimed at biologists - but it is suited for any-level R users. [A tutorial on HPC for biologist](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004140)
+
+The paper includes a detailed tutorial, suitable for classroom use, provinding step-by-step explanations of profiling (using aprof), parallel computing and calling C from R is provided in [the supplemental material](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004140#sec017).
