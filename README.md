@@ -11,6 +11,7 @@
 -   [Advanced](#advanced)
     -   [Coding efficiency in R](#coding-efficiency-in-r)
     -   [High performance computing (HPC)](#high-performance-computing-(hpc))
+-   [Contribute](#contribute)
 
 Beginners
 ---------
@@ -243,3 +244,12 @@ The paper includes a detailed tutorial, suitable for classroom use,
 provinding step-by-step explanations of profiling (using aprof),
 parallel computing and calling C from R is provided in [the supplemental
 material](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004140#sec017).
+
+Contribute
+==========
+
+As R, this repro should always be evolving and in a stage of
+development. Do you have any ideas on how we can improve it? We'll be
+happy to hear them so please contribute! You can make suggestion
+[here](https://github.com/TalkStats/R_recomendations/issues), or just
+fork the repro and make a pull request!

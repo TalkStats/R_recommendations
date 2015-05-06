@@ -163,3 +163,7 @@ A quick guide on using profiling to find bottlenecks in your code is given [here
 Computing is central to modern science, the following paper provides a gentle introduction to high performance computing  - aimed at biologists - but it is suited for any-level R users. [A tutorial on HPC for biologist](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004140)
 
 The paper includes a detailed tutorial, suitable for classroom use, provinding step-by-step explanations of profiling (using aprof), parallel computing and calling C from R is provided in [the supplemental material](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004140#sec017).
+
+
+# Contribute
+As R, this repro should always be evolving and in a stage of development. Do you have any ideas on how we can improve it? We'll be happy to hear them so please contribute! You can make suggestion [here](https://github.com/TalkStats/R_recomendations/issues), or just fork the repro and make a pull request!
