@@ -156,7 +156,7 @@ A guide on how to program effectively in R, from easy to advanced
 
 A quick guide on using profiling to find bottlenecks in your code is given [here](http://marcodvisser.github.io/aprof/Quickstart.html).
 
-### High performance computing (HPC)
+### Speeding up R, and topics on High performance computing (HPC)
 
 [The CRAN taskview on HPC](http://cran.r-project.org/web/views/HighPerformanceComputing.html)
 

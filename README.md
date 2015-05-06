@@ -10,7 +10,7 @@
     -   [Coding style](#coding-style)
 -   [Advanced](#advanced)
     -   [Coding efficiency in R](#coding-efficiency-in-r)
-    -   [High performance computing (HPC)](#high-performance-computing-(hpc))
+    -   [Speeding up R, and topics on High performance computing (HPC)](#speeding-up-r-and-topics-on-high-performance-computing-(hpc))
 -   [Contribute](#contribute)
 
 Beginners
@@ -229,7 +229,7 @@ inferno](http://www.burns-stat.com/documents/books/the-r-inferno/)
 A quick guide on using profiling to find bottlenecks in your code is
 given [here](http://marcodvisser.github.io/aprof/Quickstart.html).
 
-### High performance computing (HPC)
+### Speeding up R, and topics on High performance computing (HPC)
 
 [The CRAN taskview on
 HPC](http://cran.r-project.org/web/views/HighPerformanceComputing.html)
